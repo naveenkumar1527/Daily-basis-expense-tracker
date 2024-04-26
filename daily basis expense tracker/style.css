@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{
+margin:0;
+}
+header{
+	background:black;
+	color:white;
+	padding:8px 0px 6px 40px;
+	height:50px;
+}
+header h1{
+	display:inline;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size-30px;
+	float:left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+nav ul{
+	display:inline;
+	padding:0px;
+	float:left;
+}
+nav ul li{
+	display:inline-block;
+	list-style-type:none;
+	color:white;
+	float:left;
+	margin-left:12px; 
+}
+nav ul li a{
+	color:white;
+	text-decoration:
+}
+#nav{
+	font-family: 'Montserrat', sans-serif;
+}
+.homered{
+	background-color: red;
+	padding:30px 10px 21px 10px;
+}
+.divider
+{
+	background-color: red;
+	height: 5px;
+}
+.homeblack:hover{
+	background-color:gold;
+	padding:30px 10px 21px 10px;
+}
+.logo{
+	background-image:url(image/bi.jpg);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin:0;
+	padding: 0;
+}
+.homesub{
+   font-family: 'Raleway', sans-serif;
+   margin:0.5% 0% 0% 55%;
+   font-size: 25px;
+   color: red; 
+   background-color: #7a7372;
+}
+.homedes{
+	font-family: 'Raleway', sans-serif;
+	margin:0.5% 0% 0% 55%;
+	font-size: 75px;
+	color:white;
+	background-color:rgb(0,0,0,0.4);
+	display: inline block;
+}
+.homepho{
+   font-family: 'Oswald', sans-serif;
+   margin: 0% 0% 0% 55%;
+   font-size: 64px;
+   color: black;
+   background-color: #f5f5f5;
+      display: inline-block;
+}
+.buttonhome{
+	margin: 0% 0% 0% 55%;
+	background:#ffd700;
+	border: 2px solid black;
+	height: 50px; 
+	font-size: 1.4em;
+	padding: 1px;
+	cursor: pointer;
+	outline: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
